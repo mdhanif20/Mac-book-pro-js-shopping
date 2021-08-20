@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac book assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <!-- main section start here  -->
+    <main id="main-area">
+       
+        <section id="image-area">
+                <!-- computer image html here  -->
+                <div>
+                    <img id="image" src="images/mac.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="all-description">
+             <!-- product description -->
+           <section id="description-area">
+            <div id="product-description">
+                <h1 id="product-header">Customize your Blue 24-inch iMac with Apple M! chip.</h1>
+                <p>
+                    Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU, and 16-core Neural engine 8GB unified memory 265GB SSD storage TWO Thunderbolt/USB 4 Ports Magic Mouse Magin Keyboard.US English
+                </p>
+           </div>
+           </section>
+          <section id="facilites-description">
+               <!-- memory area start here  -->
+           <div id="device-memory">
+            <h2>Memory</h2>
+
+
+            <button class="button-design" id="mid-memory" onclick="memoryCost('mid-memory')">8GB unified memory</button>
+            <button class="button-design" id="high-memory" onclick=" memoryCost('high-memory')">16GB unified memory</button>
+           </div>
+
+
+           <!-- storage area start here  -->
+           <div id="device-storage">
+            <h2>Storage</h2>
+            <button class="button-design" id="low-storage" onclick="storageCost('low-storage')">256GB SSD storage</button>
+            <button class="button-design" id="mid-storage" onclick="storageCost('mid-storage')">512GB SSD storage</button>
+            <button class="button-design" id="high-storage" onclick="storageCost('high-storage')">1TB SSD storage</button>
+           </div>
+
+
+           <!-- delivery option area start here  -->
+           <div id="delivery">
+            <h2>Choose your delivery option</h2>
+            <button class="button-design" id="free-delivery" onclick="deliveyCost('free-delivery')">Friday,Aug 25 FREE Prime Delivery</button>
+            <button class="button-design" id="premium-delivery" onclick="deliveyCost('premium-delivery')">Friday,Aug 21 Delivery charge $20</button>
+           </div>
+          </section>
+
+          <section id="calculation-area">
+            <ul id="calculation">
+                <li id="single-calculation"><b >Best Price <strong id="calculation-gap">$<span id="regular-price">1299</span></strong></b> </li>
+                <li id="single-calculation"><b >Extra Memory Cost <strong id="calculation-gap">$<span id="previous-memory-cost">0</span></strong></b> </li>
+                <li id="single-calculation"><b >Extra Storage Cost<strong id="calculation-gap">$<span id="previous-storage-cost">0</span></strong></b> </li>
+                <li id="single-calculation" style="border-bottom: 2px solid black;"><b >Delivery charge <strong id="calculation-gap">$<span id="previous-delivery">0</span></strong></b> </li>
+                <li id="single-calculation"><b >Total Price  <strong id="calculation-gap">$<span id="previous-total">1299</span></strong></b> </li>
+            </ul>
+            <div>
+                <h3 id="pomo-header">add pomo code</h3>
+            <input type="text" id="pomo-input">
+            <button id="pomo-button" onclick="pomoCode()">Apply</button>
+            </div>
+          </section>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div id="footer-area">
+                <h2 id="footer-total">Total:$ <span id="before-pomo">1299</span> </h2>
+            </div>
+        </section>
+    </footer>
+
+<!-- js link here  -->
+<script src="js/main.js"></script>t
+</body>
+</html>

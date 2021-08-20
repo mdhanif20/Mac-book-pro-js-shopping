@@ -1,0 +1,95 @@
+/* common css style here  */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* common product button css style start here  */
+.button-design{
+    padding: 5px 6px;
+    font-size: 18px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid rgb(180, 172, 172);
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px grey;
+    cursor: pointer;
+}
+/* common product button css style end here  */
+/* image area css start here  */
+#image-area{
+    width: 40%;
+}
+#image{
+    width: 80%;
+    padding: 20%;
+    
+}
+/* image area css end here  */
+/* main area all css here  */
+#main-area{
+    display: flex;
+    padding: 5%;
+}
+/* product description area css here  */
+#all-description{
+    width: 60%;
+    padding-left: 100px;
+}
+#product-header{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+/* product total calculation area css start here */
+#calculation {
+    list-style: none;
+    padding-top: 50px;
+    font-size: 24px;
+    padding-left: 0px;
+}
+
+#single-calculation {
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+    width: 350px;
+    margin: 10px 0px;
+}
+
+#calculation-gap {
+    padding-right: 5px;
+    float: right;
+}
+/* pomo code css start here */
+#pomo-header{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#pomo-input {
+    font-size: 22px;
+    border-radius: 5px;
+}
+#pomo-button {
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    padding: 5px 16px;
+    color: #fff;
+    margin-left: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px grey;
+}
+/* product total calculation area css end here */
+
+/* footer total calculation style start here  */
+#footer-area{
+    width: 80%;
+    margin: auto;
+}
+#footer-total {
+    text-align: center;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding: 15px;
+    font-size: 35px;
+}
+/* footer total calculation style end here  */
