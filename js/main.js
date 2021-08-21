@@ -25,7 +25,7 @@ function memoryCost(memoryType){
 
 
 
- 
+
 /*---------------------
  storage price function start here 
  --------------------- */ 
