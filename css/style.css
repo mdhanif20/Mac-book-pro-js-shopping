@@ -1,9 +1,10 @@
-/* common css style here  */
+/* common css style start here  */
 body{
     margin: 0;
     padding: 0;
 }
-/* common product button css style start here  */
+
+/* common product button */
 .button-design{
     padding: 5px 6px;
     font-size: 18px;
@@ -14,7 +15,16 @@ body{
     box-shadow: 0px 0px 2px 0px grey;
     cursor: pointer;
 }
-/* common product button css style end here  */
+/* common css style end here  */
+
+/* header section css start here  */
+#shop-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+/* header section css end here  */
+
 /* image area css start here  */
 #image-area{
     width: 40%;
@@ -25,12 +35,16 @@ body{
     
 }
 /* image area css end here  */
-/* main area all css here  */
+
+/* main area css start  here  */
 #main-area{
     display: flex;
     padding: 5%;
 }
-/* product description area css here  */
+
+/* main area css end  here  */
+
+/* product description css start here  */
 #all-description{
     width: 60%;
     padding-left: 100px;
@@ -38,10 +52,11 @@ body{
 #product-header{
     font-size: 35px;
     font-weight: bolder;
-    margin-bottom: 0px;
+    margin: 0px;
 }
+/* product description css end here  */
 
-/* product total calculation area css start here */
+/* product total price calculation css start here */
 #calculation {
     list-style: none;
     padding-top: 50px;
@@ -60,7 +75,9 @@ body{
     padding-right: 5px;
     float: right;
 }
-/* pomo code css start here */
+/* product total price calculation css end here */
+
+/* pomo code area css start here */
 #pomo-header{
     font-size: 25px;
     margin-bottom: 5px;
@@ -79,7 +96,7 @@ body{
     border-radius: 5px;
     box-shadow: 0px 0px 3px grey;
 }
-/* product total calculation area css end here */
+/* pomo code area css end here */
 
 /* footer total calculation style start here  */
 #footer-area{

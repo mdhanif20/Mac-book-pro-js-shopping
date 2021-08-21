@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- header area start here -->
     <header>
-
+        <div>
+            <h2 id="shop-heading">Mac Book Shop</h2>
+        </div>
     </header>
+    <!-- header area end here -->
     <!-- main section start here  -->
     <main id="main-area">
-       
+         <!-- image section start here  -->
         <section id="image-area">
-                <!-- computer image html here  -->
                 <div>
+                    <!-- computer image  -->
                     <img id="image" src="images/mac.png" alt="">
                 </div>
             </div>
         </section>
+        <!-- image section end here  -->
 
+        <!-- product information section start here  -->
         <section id="all-description">
-             <!-- product description -->
+             <!-- product description section start here-->
            <section id="description-area">
             <div id="product-description">
                 <h1 id="product-header">Customize your Blue 24-inch iMac with Apple M! chip.</h1>
@@ -33,25 +39,25 @@
                 </p>
            </div>
            </section>
-          <section id="facilites-description">
-               <!-- memory area start here  -->
+            <!-- product description section end here-->
+            
+          <section >
+            <!-- memory area start here  -->
            <div id="device-memory">
             <h2>Memory</h2>
-
-
-            <button class="button-design" id="mid-memory" onclick="memoryCost('mid-memory')">8GB unified memory</button>
-            <button class="button-design" id="high-memory" onclick=" memoryCost('high-memory')">16GB unified memory</button>
+            <button class="button-design" id="memory-8gb" onclick="memoryCost('memory-8gb')">8GB unified memory</button>
+            <button class="button-design" id="memory-12gb" onclick=" memoryCost('memory-16gb')">16GB unified memory</button>
            </div>
-
+           <!-- memory area end here  -->
 
            <!-- storage area start here  -->
            <div id="device-storage">
             <h2>Storage</h2>
-            <button class="button-design" id="low-storage" onclick="storageCost('low-storage')">256GB SSD storage</button>
-            <button class="button-design" id="mid-storage" onclick="storageCost('mid-storage')">512GB SSD storage</button>
-            <button class="button-design" id="high-storage" onclick="storageCost('high-storage')">1TB SSD storage</button>
+            <button class="button-design" id="storage-256gb" onclick="storageCost('storage-256gb')">256GB SSD storage</button>
+            <button class="button-design" id="storage-512gb" onclick="storageCost('storage-512gb')">512GB SSD storage</button>
+            <button class="button-design" id="storage-1tb" onclick="storageCost('storage-1tb')">1TB SSD storage</button>
            </div>
-
+            <!-- storage area end here  -->
 
            <!-- delivery option area start here  -->
            <div id="delivery">
@@ -59,31 +65,43 @@
             <button class="button-design" id="free-delivery" onclick="deliveyCost('free-delivery')">Friday,Aug 25 FREE Prime Delivery</button>
             <button class="button-design" id="premium-delivery" onclick="deliveyCost('premium-delivery')">Friday,Aug 21 Delivery charge $20</button>
            </div>
+           <!-- delivery option area end here  -->
           </section>
 
+          <!-- calculation total price section start here  -->
           <section id="calculation-area">
+              <!-- before pomo calculation start here  -->
             <ul id="calculation">
                 <li id="single-calculation"><b >Best Price <strong id="calculation-gap">$<span id="regular-price">1299</span></strong></b> </li>
                 <li id="single-calculation"><b >Extra Memory Cost <strong id="calculation-gap">$<span id="previous-memory-cost">0</span></strong></b> </li>
                 <li id="single-calculation"><b >Extra Storage Cost<strong id="calculation-gap">$<span id="previous-storage-cost">0</span></strong></b> </li>
-                <li id="single-calculation" style="border-bottom: 2px solid black;"><b >Delivery charge <strong id="calculation-gap">$<span id="previous-delivery">0</span></strong></b> </li>
+                <li id="single-calculation" style="border-bottom: 2px solid black;"><b >Delivery charge <strong id="calculation-gap">$<span id="delivery-fee">0</span></strong></b> </li>
                 <li id="single-calculation"><b >Total Price  <strong id="calculation-gap">$<span id="previous-total">1299</span></strong></b> </li>
             </ul>
+            <!-- before pomo calculation end here  -->
+            <!-- pomo code area start here   -->
             <div>
                 <h3 id="pomo-header">add pomo code</h3>
             <input type="text" id="pomo-input">
             <button id="pomo-button" onclick="pomoCode()">Apply</button>
             </div>
+            <!-- pomo code area end here   -->
           </section>
+           <!-- calculation total price section end here  -->
         </section>
+        <!-- product information section end here  -->
     </main>
+    <!-- main section end here  -->
+    <!-- footer section start here  -->
     <footer>
         <section>
             <div id="footer-area">
+                <!-- update price show here  -->
                 <h2 id="footer-total">Total:$ <span id="before-pomo">1299</span> </h2>
             </div>
         </section>
     </footer>
+      <!-- footer section end here  -->
 
 <!-- js link here  -->
 <script src="js/main.js"></script>t
